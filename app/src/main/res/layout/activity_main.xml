@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/xoxo" />
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:fontFamily="casual"
+        android:layout_marginTop="40dp"
+        android:paddingStart="100dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <Button
+        android:id="@+id/multiPlBtn"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DC9E21"
+        android:layout_centerInParent="true"
+        android:onClick="multiPlyBtn"
+        android:text="start" />
+
+</RelativeLayout>
